@@ -53,7 +53,11 @@ export function Contact() {
               </div> */}
               <div className="flex justify-center items-center gap-4 flex-wrap">
                 <Button asChild size="lg">
-                  <a href="mailto:antonio.aldo1005@gmail.com">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&to=antonio.aldo1005@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Mail className="h-4 w-4 mr-2" />
                     Send Email
                   </a>
