@@ -11,7 +11,7 @@ const projects = [
     image: "/CWhero.png",
     technologies: ["HTML/CSS", "Javascript"],
     github: "https://github.com/Tungstmrng/Christian-Wijaya",
-    demo: "https://your-ecommerce-demo.vercel.app",
+    demo: "https://christianwijaya-topaz.vercel.app/",
     featured: true,
   },
   {
@@ -20,8 +20,8 @@ const projects = [
       "An emotion detection app using machine learning to analyze facial expressions in real-time.",
     image: "/MLp.png",
     technologies: ["Python", "Flask"],
-    github: "https://github.com/yourusername/task-manager",
-    demo: "https://your-taskmanager-demo.vercel.app",
+    github: "https://github.com/Tungstmrng/EmotionDetection",
+    // demo: "https://your-taskmanager-demo.vercel.app",
     featured: true,
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     image: "/kopipj.png",
     technologies: ["HTML", "Javascript", "CSS"],
     github: "https://github.com/Tungstmrng/kopi-tikungan-website",
-    demo: "https://your-weather-demo.vercel.app",
+    demo: "https://kopi-tikungan-website.vercel.app",
     featured: true,
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     image: "/eco ai.png",
     technologies: ["React", "HTML/CSS", "JavaScript"],
     github: "https://github.com/yourusername/portfolio",
-    demo: "https://your-portfolio.vercel.app",
+    // demo: "https://your-portfolio.vercel.app",
     featured: true,
   },
 ];
@@ -126,7 +126,7 @@ export function Projects() {
           </div>
 
           {/* Other Projects */}
-          <div className="space-y-8">
+          {/* <div className="space-y-8">
             <h3 className="text-2xl font-semibold">Other Notable Projects</h3>
             <div className="grid md:grid-cols-2 gap-6">
               {otherProjects.map((project, index) => (
@@ -178,7 +178,7 @@ export function Projects() {
                 </Card>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
