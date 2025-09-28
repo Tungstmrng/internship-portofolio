@@ -68,7 +68,6 @@ export function Hero() {
                   rel="noopener noreferrer"
                 >
                   <Mail className="h-4 w-4 mr-2" />
-                  Send Email
                 </a>
               </Button>
             </div>
