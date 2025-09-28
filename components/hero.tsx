@@ -62,8 +62,13 @@ export function Hero() {
                 </a>
               </Button>
               <Button variant="ghost" size="sm" asChild>
-                <a href="mailto:antonio.aldo1005@gmail.com">
-                  <Mail className="h-5 w-5" />
+                <a
+                  href="https://mail.google.com/mail/?view=cm&to=antonio.aldo1005@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Mail className="h-4 w-4 mr-2" />
+                  Send Email
                 </a>
               </Button>
             </div>
